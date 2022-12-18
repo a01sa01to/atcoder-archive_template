@@ -20,6 +20,11 @@ Just press the button `Use this template` and create your own repository.
 - [ ] Change the API Query to your AtCoder ID (`_src/fetch.py`: Line 10, 19)
 - [ ] Enable GitHub Actions in your repository settings
 
+## Disclaimer
+
+This repository is not affiliated with AtCoder.
+I am not responsible for any damage caused by this repository.
+
 </details>
 
 <details>
@@ -40,6 +45,11 @@ AtCoderの提出をローカルに保存するためのテンプレートリポ�
 - [ ] もし署名をしない場合は、`.github/workflows/crawl.yml`の30-36行目と`.github/workflows/crawl_all.yml`の27-33行目を削除する
 - [ ] APIのクエリを自分のAtCoder IDに変更する（`_src/fetch.py`: Line 10, 19）
 - [ ] リポジトリの設定でGitHub Actionsを有効にする
+
+## 免責事項
+
+このリポジトリにはAtCoder社は関わっていません。
+このリポジトリによって生じた、いかなる損害についても、私は責任を負いません。
 
 </details>
 
