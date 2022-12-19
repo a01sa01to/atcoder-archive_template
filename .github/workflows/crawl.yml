@@ -34,6 +34,10 @@ jobs:
           passphrase: ${{secrets.PASSPHRASE}}
           git_user_signingkey: true
           git_commit_gpgsign: true
+      - name: Git Config
+        run: |
+          git config --global user.name "<Your Name>"
+          git config --global user.email "<Your Email>"
       - name: Crawl and Commit
         run: python _src/main.py
       - name: Push
