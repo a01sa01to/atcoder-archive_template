@@ -21,7 +21,7 @@ Just press the button `Use this template` and create your own repository.
 - [ ] If you don't want to sign the commit
   - [ ] Remove the lines 30-36 of `.github/workflows/crawl.yml` and the lines 27-33 of `.github/workflows/crawl_all.yml`
   - [ ] Change the Git Config to your name and email (`.github/workflows/crawl.yml`: Line 39, 40 and `.github/workflows/crawl_all.yml`: Line 36, 37)
-  - [ ] Remove `-S` option (`_src/commit.py`: Line 12)
+  - [ ] Remove `-S` option (`_src/commit.py`: Line 12, 34)
 - [ ] Change the API Query to your AtCoder ID (`_src/fetch.py`: Line 10, 19)
 - [ ] Enable GitHub Actions in your repository settings
 
@@ -52,7 +52,7 @@ AtCoderの提出をローカルに保存するためのテンプレートリポ�
 - [ ] コミットに署名しない場合
   - [ ] `.github/workflows/crawl.yml` 30-36行目と `.github/workflows/crawl_all.yml` 27-33行目を削除する
   - [ ] Gitに自分の名前とメールアドレスを設定する (`.github/workflows/crawl.yml`: Line 39, 40 and `.github/workflows/crawl_all.yml`: Line 36, 37)
-  - [ ] `-S` オプションを削除 (`_src/commit.py`: Line 12)
+  - [ ] `-S` オプションを削除 (`_src/commit.py`: Line 12, 34)
 - [ ] APIのクエリを自分のAtCoder IDに変更する（`_src/fetch.py`: Line 10, 19）
 - [ ] リポジトリの設定でGitHub Actionsを有効にする
 
